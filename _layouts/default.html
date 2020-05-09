@@ -8,8 +8,17 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
-  <body>
-    <header class="page-header" role="banner">
+<body class="profile-page" onload="loadBaffle()">
+    <script src="assets/js/baffle.js" type="text/javascript"></script>
+    <script>
+        function loadBaffle() {
+            const b = baffle('.title', {
+                characters: '',
+                speed: 10
+            }).start(100).once().reveal(100000);
+        }
+    </script>
+      <header class="page-header" role="banner">
       <h1 class="project-name">Rohie Kernel</h1>
       <h2 class="project-tagline">Kernel for Xiaomi SDM660</h2>
     </header>
