@@ -19,8 +19,11 @@ $(window).on("load", function () {
 $(document).ready(function () {
 
     $('#slides').superslides({
-        animation: 'fade',
-        play: 2500,
+        animation: 'slide',
+        play: 3200,
+		animation_speed: 'normal',
+		inherit_width_from: window,
+		inherit_height_from: window,
         pagination: false
     });
 
