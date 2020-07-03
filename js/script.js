@@ -28,11 +28,11 @@ $(document).ready(function () {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Mess", "Music Lover", "Waste Creature"," Rohie Kernel Dev", "SDM660 Dev","Boring Person"],
+        strings: ["Useless","Mess", "Cruel", "Waste Creature"," Rohie Kernel CatX", "Boring Person","Music Lover"],
         typeSpeed: 50,
         loop: true,
         startDelay: 400,
-        showCursor: false
+        showCursor: true
 
     });
 
