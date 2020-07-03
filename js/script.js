@@ -32,7 +32,7 @@ $(document).ready(function () {
         typeSpeed: 50,
         loop: true,
         startDelay: 400,
-        showCursor: true
+        showCursor: false
 
     });
 
