@@ -3,7 +3,7 @@ a:link, a:visited {
     text-decoration: none;
 }
 a:link {
-    color: #98726c;
+    color: #85317F;
 }
 a:visited {
     color: #c39570;
@@ -21,7 +21,7 @@ a:active, a:hover {
   background-image: linear-gradient(120deg, #00ffff, #3d0082);
 }
 body {
-    background-color: #181818;
+    background-color: #000000;
     color: white;
     font-size: 12pt;
     width: auto;
@@ -37,10 +37,25 @@ div-a {
 * {
     font-family: "Comfortaa";
 }
-.fixed-bottom {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1030;
+
+.heart {
+  color: red;
+  font-size: 22px;
+}
+
+.creditSection {
+  margin-top: 20px;
+}
+
+.creditSection p {
+  margin: 0;
+}
+.copyrightSection {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 30px 5px;
+}
+
+.copyrightSection p {
+  margin: 0;
 }
