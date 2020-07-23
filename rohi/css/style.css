@@ -59,3 +59,42 @@ div-a {
 .copyrightSection p {
   margin: 0;
 }
+
+.rohi {
+  text-decoration: none;
+  font-weight: 600;
+  transition: .4s;
+}
+
+.rohi {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.rohi:hover {
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #444;
+  transition: .4s;
+  text-decoration: none;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.loader .inner {
+  width: 100%;
+  height: 100%;
+  background: url(../../rohi/images/loader.gif) center center no-repeat;
+}
